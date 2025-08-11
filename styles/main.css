@@ -1,0 +1,182 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 0PX;
+}
+
+.header {
+    background-image: url(../assets/background.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
+}
+
+.overlay:before {
+    content: " ";
+    z-index: 1;
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.overlay * {
+    position: relative; /* Makes elements display above overlay. */
+}
+#header-text {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 25%;
+    width: 60%;
+    z-index: 2 !important;
+    font-weight: bold;
+}
+/* Novo Amor style font: Raleway with letter spacing */
+h1 {
+    color: #6c513e; /* Shaded mountain */
+    -webkit-text-stroke: 1px #7c5c43; /* Sunlit mountain */
+    font-family: 'Raleway', sans-serif; /* Novo Amor style */
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 60px;
+    margin: 0px;
+}
+
+h2 { 
+    color: #c69457; /* Exact grass tone */
+    -webkit-text-stroke: 0.5px #9a9c97; /* Exact water tone */
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+h3{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0px;
+    text-align: center;
+}
+h4{
+    color: #84009e;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+p{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+.partner{
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+    background-color: white;
+    z-index: 3;
+}
+.partner img{
+    position: relative;
+    top: 6px;
+}
+.aa-logo{
+    padding-left: 6px;
+}
+.main{
+    background: url(../assets/shardy.png);
+    background-size: cover;
+    margin: 0px;
+    padding: 20px;
+}
+
+.value-props{
+    margin: 40px auto;
+    width: 60%;
+}
+
+.prop{
+    border: 1px solid #ffffff;
+    padding: 40px 0px;
+    margin: 5px 0px;
+    text-align: center;
+}
+.prop h2{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 24px;
+}
+.prop li{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: left;
+    width: 60%;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: right;
+    margin: 20px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+
+
+
+
+
+
+
+
+/* Adding a JavaScript css edition */
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  font-family: Helvetica, sans-serif;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(32, 64, 86);
+  color: rgb(32, 64, 86);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(32, 64, 86);;
+  color: white;
+  transition: background-color 0.2s, color 0.2s;
+}
+
